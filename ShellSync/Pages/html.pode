@@ -1,0 +1,9 @@
+<!-- /views/index.pode -->
+<html>
+    <head>
+        <title>Current Date</title>
+    </head>
+    <body>
+        <span>$([DateTime]::Now.ToString('yyyy-MM-dd HH:mm:ss');)</span>
+    </body>
+</html>
